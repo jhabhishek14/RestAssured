@@ -21,4 +21,9 @@ public class PayloadOrbody {
 				+ "  \"language\": \"French-In\"\r\n"
 				+ "}";
 	}
+	
+	public static string Addplace2() {
+		jbjkn
+		
+	}
 }

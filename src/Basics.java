@@ -12,9 +12,12 @@ public class Basics {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 //validate if Add place APi working as expected.
+		
 		//Rest assured works on 3 principles Given(All the input details, when (Submit the API (resource and method)) 
 		//, then(Validate the response)
+		
 		RestAssured.baseURI= "https://rahulshettyacademy.com";
+		
 		given().log().all().queryParam("Key", "qaclick123").header("Content-Type","application/json")
 		//We have pasted below json body and eclipse convert it in this format which java accept 
 		.body(PayloadOrbody.AddPlace())

@@ -4,6 +4,7 @@ public class PayloadOrbody {
 
 	public static String AddPlace() //if you make the method as static it allows you to use this method in another class without creating object
 	{
+		//We have pasted below json body and eclipse convert it in this format which java accept
 		return "{\r\n"
 				+ "  \"location\": {\r\n"
 				+ "    \"lat\": -38.383494,\r\n"
@@ -22,8 +23,5 @@ public class PayloadOrbody {
 				+ "}";
 	}
 	
-	public static string Addplace2() {
-		jbjkn
-		
-	}
+	
 }
